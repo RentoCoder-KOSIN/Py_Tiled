@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytiled/__init__.py
+src/pytiled/camera.py
+src/pytiled/collision.py
+src/pytiled/loader.py
+src/pytiled/renderer.py
+src/pytiled/scene.py
+src/pytiled/tilemap.py
+src/pytiled/warp.py
+src/pytiled.egg-info/PKG-INFO
+src/pytiled.egg-info/SOURCES.txt
+src/pytiled.egg-info/dependency_links.txt
+src/pytiled.egg-info/requires.txt
+src/pytiled.egg-info/top_level.txt

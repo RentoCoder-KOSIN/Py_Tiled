@@ -1,0 +1,31 @@
+[project]
+name = "pytiled"
+version = "1.0.0"
+description = "Tiled JSON マップを pygame で使うためのライブラリ"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "RentoCoder-KOSIN", email = "konosiniti@gmail.com" }
+]
+keywords = ["pygame", "tiled", "tilemap", "game", "2d"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+]
+
+dependencies = [
+    "pygame>=2.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"pytiled" = []
